@@ -1343,3 +1343,27 @@ select:focus {
     grid-template-columns: 1fr;
   }
 }
+
+/* Owner Section */
+.owner-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.owner-signature {
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--primary-color);
+  margin-top: 2rem;
+}
+
+.owner-signature p {
+  margin-bottom: 0 !important;
+}
+
+.about-image.owner-image {
+  transition: var(--transition);
+}
+
+.about-image.owner-image:hover {
+  transform: scale(1.02);
+}
